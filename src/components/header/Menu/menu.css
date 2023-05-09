@@ -1,0 +1,162 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul {
+    display: flex;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item {
+    position: relative;
+    padding: 0 20px;
+    line-height: 77px;
+    display: inline-block;
+}
+
+.category {
+    margin-right: 10px;
+}
+
+.support {
+    display: flex;
+}
+
+.icon {
+    margin-left: 20px;
+    font-size: 24px;
+    color: rgb(216, 109, 56);
+    line-height: 77px;
+    cursor: pointer;
+}
+
+.search {
+    position: relative;
+}
+
+.search-box {
+    position: absolute;
+    width: 280px;
+    height: 40px;
+    background-color: #fdf3f3;
+    right: 38px;
+    top: 15px;
+    display: none;
+}
+
+.search-box-icon {
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.search-box-icon:first-child {
+    position: absolute;
+    left: 10px;
+    top: 0;
+    font-size: 24px;
+    color: rgb(105, 100, 98);
+    cursor: pointer;
+}
+
+input {
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #fdf3f3;
+    left: 40px;
+    top: 0;
+    font-size: 15px;
+}
+
+.search-box-icon:last-child {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 24px;
+    color: rgb(105, 100, 98);
+    cursor: pointer;
+}
+
+.list {
+    position: relative;
+    cursor: pointer;
+}
+
+.list-group {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 14rem;
+    border: 1px solid #ffd977;
+    box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.08);
+    top: 60px;
+    left: 30px;
+    max-height: 550px;
+    overflow-y: auto;
+    z-index: 1;
+}
+
+.list-item {
+    display: block;
+    padding: 7px;
+    font-size: 1.1rem;
+    color: #444444;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.list-item:hover {
+    background-color: #ffd977;
+    text-decoration: underline;
+}
+
+.list:hover .list-group {
+    display: block;
+}
+
+.search-box {
+    position: relative;
+}
+
+.meal {
+    position: absolute;
+    background-color: white;
+    width: 20rem;
+    box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.08);
+    top: 70px;
+    right: 80px;
+    overflow: auto;
+    max-height: 550px;
+    z-index: 1;
+}
+
+.meal-item {
+    display: block;
+    padding: 7px;
+    font-size: 1.1rem;
+    color: #444444;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.meal-item:hover {
+    background-color: #ffd977;
+}
+
+.meal-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}

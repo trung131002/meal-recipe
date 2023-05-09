@@ -1,0 +1,23 @@
+.header {
+    height: 77px;
+    border-bottom: 1px solid #ffd977;
+    display: flex;
+    flex: 1;
+}
+
+.header-logo img {
+    width: 270px;
+    height: 77px;
+}
+
+.header ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-menu {
+    flex: 1;
+    margin-right: 40px;
+}
